@@ -1,0 +1,32 @@
+package com.example.practicalexam.modelclass
+
+data class UserData(
+    val access_group: String,
+    val added_by: String,
+    val addedby_user_id: Int,
+    val address: String,
+    val birth_date: String,
+    val city_name: Any,
+    val country_name: String,
+    val created_at: String,
+    val default_lang_code: String,
+    val email: String,
+    val first_name: String,
+    val gender: Int,
+    val id: Int,
+    val is_super_user: Int,
+    val large_photo_url: String,
+    val last_name: String,
+    val mobile: String,
+    val mobile_isd: String,
+    val photo: String,
+    val small_photo_url: String,
+    val state_name: Any,
+    val status_id: Int,
+    val status_label: String,
+    val supplier_id: Int,
+    val supplier_user_role_id: Int,
+    val updated_at: String,
+    val zip: String,
+    val zone_code: String
+)
